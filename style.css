@@ -4,7 +4,37 @@
     padding: 0;
 }
 
-header h1 {
-    color: #e9f45b;
+html {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+    padding: 24px;
+    text-align: center;
     background-color: #1212b2;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #e9f45b;
+}
+
+main .hero {
+    height: 420px;
+    background-image: url("./images/cover-bg.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 48px;
+    color: white;
+}
+
+main .hero h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
